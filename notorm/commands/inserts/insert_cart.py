@@ -1,6 +1,6 @@
 from sqlalchemy import insert
 
-from utils.db_api.alchemy import cart, engine
+from notorm.utils.db_api.alchemy import cart, engine
 
 conn = engine.connect()
 ins = insert(cart)

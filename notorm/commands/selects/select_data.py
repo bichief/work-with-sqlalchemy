@@ -1,5 +1,5 @@
 from sqlalchemy import select
-from utils.db_api.alchemy import engine, users, goods
+from notorm.utils.db_api.alchemy import engine, goods
 
 conn = engine.connect()
 

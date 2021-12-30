@@ -1,6 +1,6 @@
 from sqlalchemy.dialects.postgresql import insert
 
-from utils.db_api.alchemy import users, engine
+from notorm.utils.db_api.alchemy import users, engine
 
 user_info = insert(users).values(
     name='Дмитрий',

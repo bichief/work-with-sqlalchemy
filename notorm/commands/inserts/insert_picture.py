@@ -1,6 +1,6 @@
 from sqlalchemy import insert
 
-from utils.db_api.alchemy import picture, engine
+from notorm.utils.db_api.alchemy import picture, engine
 
 conn = engine.connect()
 ins = insert(picture)
