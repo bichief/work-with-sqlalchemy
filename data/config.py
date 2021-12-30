@@ -1,0 +1,6 @@
+DATABASE = 'postgresql'
+DRIVER = 'psycopg2'
+USERNAME = 'postgres'
+PASSWORD = 'alexSMX2121'
+HOST = 'localhost'
+NAME = 'database'
